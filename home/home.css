@@ -51,7 +51,9 @@ body{
     transform: scale(1.2)
 }
 
-
+b{
+    font-size: 100px;
+}
 .navBarButtons:before{
     content: "";
     position: absolute;
@@ -72,4 +74,69 @@ body{
     color: #FFFFFF;
     font-weight: bold;
     align-self: baseline;
+}
+
+.vid{
+    left:50px;  
+    z-index:-1; 
+    position:absolute;
+    opacity: 0.5;
+    
+}
+
+#backVid{
+    margin-top: -50px;
+}
+
+.slog{
+    font-size: 72px;
+    position: absolute;
+    top: 45%;
+    left:10%;
+    color: whitesmoke;
+    font-family: Merriweather;
+}
+
+.div2{
+    height: 500px;
+    overflow: hidden;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    height:300px;
+    width: 270px;
+    background-color: #6D8B74;
+    border-radius: 10px;
+    padding: 100px;
+    padding-top: 50px;
+    margin: 60px;
+}
+
+.cardheader{
+    color: whitesmoke;
+    font-size: 42px;
+    font-family: Raleway;
+}
+
+.cardbody{
+    font-family: Aleo;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+#learnMoreHB{
+    align-self: flex-end;
+}
+
+#donateHB{
+    align-self: flex-start;
+}
+
+#contactUsHB{
+    align-self: flex-end;
 }
