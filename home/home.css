@@ -4,21 +4,21 @@ body{
     background-color: #EFEAD8;
 }
 .div1{
-    height: 130px;
+    height: 110px;
     width: 100%;
     display: flex;
-    background-color: #FFFFFF;
+    background-color: #5F7161;
 }
 .fpContainer{
     margin-left: 2%;
-    width: 34%;
+    width: 30%;
     float: left;
     align-self: center;
     background-color: null;
 }
 
 .fpText{
-    color: #000000;
+    color: #FFFFFF;
     font-family: Aleo;
     font-size: 35px;
 }
@@ -28,7 +28,7 @@ body{
     margin-left: 5%;
     margin-right: 2%;
     height: 60px;
-    margin-top: 30px;
+    margin-top: 15px;
     display: flex;
     align-items: baseline;
     align-self: center;
@@ -38,11 +38,11 @@ body{
 }
 
 .navBarButtons{
-    background-color: #FFFFFF;
+    background-color: #5F7161;
     border: none;
     position: relative;
     font-size: 25px;
-    color: #000000;
+    color: #FFFFFF;
     font-family: Raleway;
     transition: all 0.2s ease
 }
@@ -55,7 +55,7 @@ body{
 .navBarButtons:before{
     content: "";
     position: absolute;
-    background-color: #000000;
+    background-color: #FFFFFF;
     height: 3px;
     width: 0%;
     left: 0;
@@ -69,7 +69,7 @@ body{
 
 .navBarPartition{
     font-size: 35px;
-    color: #000000;
+    color: #FFFFFF;
     font-weight: bold;
     align-self: baseline;
 }
