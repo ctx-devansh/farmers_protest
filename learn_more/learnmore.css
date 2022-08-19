@@ -88,25 +88,81 @@ b{
 
 .text-header{
     font-family: Raleway;
-    font-size: 42px;
-    text-decoration:underline;
-    margin-left:100px;
-    margin-top:50px;
-    margin-bottom: 35px;
-    border-radius: 5px;
-    background-color: #FFFFFF;
+    font-size: 40px;
+    color: #EFEAD8;
     padding:35px;
-    width:fit-content;
+    color: #333333;
 }
 
+
+
 .text-b{
-    font-family: Raleway;
-    font-size: 25px;
-    margin-left: 200px;
+    font-family: Aleo;
+    font-size: 20px;
     text-align: justify;
-    margin-right: 200px;
+    margin-left: 50px;
+    padding-right: 160px;
+    color: #333333;
 }
 
 li{
-   margin-bottom: 30px;
+    margin-bottom: 30px;
 }
+
+.whyparacard{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.whypara{
+    background-color: #6D8B74;
+    padding: 35px;
+    border-radius: 40px;
+    align-self: stretch;
+    width: 1500px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+}
+
+#line{
+    height: 4px;
+    background-color: #333333;
+    border: 0px;
+    margin-top: -20px;
+    width: 85%;
+}
+
+.msppara{
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+.billspara{
+    background-color:#D0C9C0;
+    padding: 40px;
+}
+
+.imgs{
+    margin: 60px;
+    border-radius: 10px;
+    height: 450px;
+    width: 70%;
+    overflow: hidden;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 100%;
+    border-radius: 2px;
+  }
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#5F7161,#6D8B74,#EFEAD8,#6D8B74,#5F7161);
+}
+  

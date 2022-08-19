@@ -1,0 +1,130 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #EFEAD8;
+    padding-bottom: 100px;
+}
+.div1{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    background-color: #5F7161;
+}
+.fpContainer{
+    margin-left: 2%;
+    width: 30%;
+    float: left;
+    align-self: center;
+    background-color: null;
+}
+
+.fpText{
+    color: #FFFFFF;
+    font-family: Aleo;
+    font-size: 35px;
+}
+
+.navBar{
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 2%;
+    height: 60px;
+    margin-top: 15px;
+    display: flex;
+    align-items: baseline;
+    align-self: center;
+    justify-content: space-evenly;
+    background-color: null;
+    float: right;
+}
+
+.navBarButtons{
+    background-color: #5F7161;
+    border: none;
+    position: relative;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    transition: all 0.2s ease
+}
+
+/* .navBarButtons:hover{
+    transform: scale(1.2)
+} */
+
+b{
+    font-size: 100px;
+}
+.navBarButtons:before{
+    content: "";
+    position: absolute;
+    background-color: #D0C9C0;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    top: 40px;
+    transition: all 0.3s ease;
+}
+
+.navBarButtons:hover:before{
+    width: 100%;
+}
+
+.navBarPartition{
+    font-size: 35px;
+    color: #D0C9C0;
+    font-weight: bold;
+    align-self: baseline;
+}
+
+#contactUsButton:before{
+    content: "";
+    position: absolute;
+    background-color: #D0C9C0;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    top: 40px;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.entrybox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.labels{
+    margin-left: 20px;
+    font-family: Raleway;
+    font-size: 25px;
+}
+
+.inputs{
+    height: 70px;
+    width: 400px;
+    font-size: 22px;
+    font-family: Aleo;
+    border: white;
+    border-radius: 20px;
+    padding: 15px;
+
+}
+
+.submitbutton{
+    background-color: #FFFFFF;
+    width: 200px;
+    height: 70px;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Aleo;
+    font-size: 20px;
+    align-self: center;
+}

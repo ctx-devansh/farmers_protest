@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Home</title>
+        <title>Contact Us</title>
         <link href='https://fonts.googleapis.com/css?family=Raleway|Aleo|Merriweather' rel='stylesheet'>
         <link rel="stylesheet" href="/farmersProtest/contact_us/contactUs.css">
     </head>
@@ -18,21 +18,27 @@
                     <button  class="navBarButtons" id="learnMoreButton" type="submit" value="learn_more">Learn More</button>
                 </form>
                 <a class="navBarPartition">|</a>
-                <form action="/farmersProtest/donate/donate.html" target="_self" method="post">
-                    <button  class="navBarButtons" id="donateButton" type="submit" value="donate">Donate</button>
+                <form action="/farmersProtest/articles_blogs/articlesblogs.html" target="_self" method="post">
+                    <button  class="navBarButtons" id="articlesButton" type="submit" value="articles">Articles</button>
                 </form>
                 <a class="navBarPartition">|</a>
-                <form action="/farmersProtest/contact_us/contact_us.html" target="_self" method="post">
+                <form action="/farmersProtest/contact_us/contactUs.html" target="_self" method="post">
                     <button  class="navBarButtons" id="contactUsButton" type="submit" value="contact_us">Contact Us</button>
                 </form>
             </nav>
         </div>
         <form>
-            <label for="mail">Enter Email:</label>
-            <input name="mail" placeholder="someone@example.com"type="email" id="em">
-            <label for="num">Enter Phone No.:</label>
-            <input name="num" placeholder="+91 99999 99999" type="number" id="numb">
-            <button type="submit" href="mailto:saksham.kaushik@gdgoenka.ac.in">Send</button>
+            <div class="form1">
+                <div class="entrybox" id="mailentry">
+                    <label class="labels" for="mail">Enter Email:</label>
+                    <input class="inputs" name="mail" placeholder="someone@example.com"type="email" id="em">
+                </div>
+                <div class="entrybox" id="contactentry">
+                    <label class="labels" for="num">Enter Phone No.:</label>
+                <input class="inputs" name="num" placeholder="+91 99999 99999" type="number" id="numb">
+                </div>
+                <button class="submitbutton" type="submit" href="mailto:saksham.kaushik@gdgoenka.ac.in">Send</button>
+            </div>
         </form>
     </body>
 </html>
