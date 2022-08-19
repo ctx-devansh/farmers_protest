@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link href='https://fonts.googleapis.com/css?family=Raleway|Aleo|Merriweather' rel='stylesheet'>
+        <link rel="stylesheet" href="/farmersProtest/home/home.css">
+    </head>
+    <body>
+        <div class="div1">
+            <div class="fpContainer">
+                <p class="fpText">Farmers Protests</p>
+            </div>
+                <nav class="navBar">
+                <form action="/farmersProtest/home/home.html" target="_self" method="post">
+                    <button  class="navBarButtons" id="homeButton" type="submit" value="home">Home</button>
+                </form>
+                <a class="navBarPartition">|</a>
+                <form action="/farmersProtest/learn_more/learnmore.html" target="_self" method="post">
+                    <button  class="navBarButtons" id="learnMoreButton" type="submit" value="learn_more">Learn More</button>
+                </form>
+                <a class="navBarPartition">|</a>
+                <form action="/farmersProtest/articles_blogs/articlesblogs.html" target="_self" method="post">
+                    <button  class="navBarButtons" id="articlesButton" type="submit" value="articles">Articles</button>
+                </form>
+                <a class="navBarPartition">|</a>
+                <form action="/farmersProtest/contact_us/contactUs.html" target="_self" method="post">
+                    <button  class="navBarButtons" id="contactUsButton" type="submit" value="contact_us">Contact Us</button>
+                </form>
+            </nav>
+        </div>
+        <div class="div2" class="vid">
+            <video id="backVid" width="1800" height="auto" autoplay loop muted>
+                <source src="Farmers Protest _ Aerial View _ Farm Bills _ Harp Farmer Pictures _ Kisan Morcha _ Delhi.mp4" type="video/mp4"></source>
+            </video>    
+        </div>
+        <div class="slog">
+            No Farmers,<br><b>No Food.</b>
+        </div>
+        <div class="cards">
+
+            <div class="CardWCR" id="learnmoreCard">
+                <div class="cardImgs" id="left">
+                    <img class="imgprops" id="lmIMG" src="\farmersProtest\media\newspaper.png">
+                </div>
+                
+                <div class="card" id="learnMoreHB" align="right">
+                    <b class="cardheader">Learn More</b>
+                    <p class="cardbody">
+                       What is MSP? What are three farm acts? Why are we protesting against them? Know more about the acts and how 
+                        <br>
+                       <a href="/farmersProtest/learn_more/learnmore.html">Learn More</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="CardWCL">
+                <div class="card" id="articlesAndBlogsHB">
+                    <b class="cardheader">Articles and Blogs</b>
+                    <p class="cardbody">
+                        Read various articles and blogs published by media houses about the protests and expand your knowledge
+                        <br>
+                        <a href="/farmersProtest/articles_blogs/articlesblogs.html">Read</a>
+                    </p>
+                </div>
+                <div class="cardImgs" id="right">
+                    <img class="imgprops" id="articlesAndBlogsIMG" src="\farmersProtest\media\laptopTyping.jpg">
+                </div>
+            </div>
+            
+            <div class="CardWCR">
+                <div class="cardImgs" id="left">
+                    <img id="contactUsIMG" src="\farmersProtest\media\telephone.jpg">
+                </div>
+                <div class="card" id="contactUsHB" align="right">
+                    <b class="cardheader">Contact Us</b>
+                    <p class="cardbody">
+                        Contact our team for any further details or objections
+                        <br>
+                        <a href="/farmersProtest/contact_us/contactUs.html">Contact Us</a>
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
