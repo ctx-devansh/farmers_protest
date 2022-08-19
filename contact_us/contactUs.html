@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link href='https://fonts.googleapis.com/css?family=Raleway|Aleo|Merriweather' rel='stylesheet'>
+        <link rel="stylesheet" href="/farmersProtest/contact_us/contactUs.css">
+    </head>
+    <body>
+        <div class="div1">
+            <div class="fpContainer">
+                <p class="fpText">Farmers Protests</p>
+            </div>
+                <nav class="navBar">
+                <form action="/farmersProtest/home/home.html" target="_self" method="post">
+                    <button  class="navBarButtons" id="homeButton" type="submit" value="home">Home</button>
+                </form>
+                <a class="navBarPartition">|</a>
+                <form action="/farmersProtest/learn_more/learnmore.html" target="_self" method="post">
+                    <button  class="navBarButtons" id="learnMoreButton" type="submit" value="learn_more">Learn More</button>
+                </form>
+                <a class="navBarPartition">|</a>
+                <form action="/farmersProtest/donate/donate.html" target="_self" method="post">
+                    <button  class="navBarButtons" id="donateButton" type="submit" value="donate">Donate</button>
+                </form>
+                <a class="navBarPartition">|</a>
+                <form action="/farmersProtest/contact_us/contact_us.html" target="_self" method="post">
+                    <button  class="navBarButtons" id="contactUsButton" type="submit" value="contact_us">Contact Us</button>
+                </form>
+            </nav>
+        </div>
+        <form>
+            <label for="mail">Enter Email:</label>
+            <input name="mail" placeholder="someone@example.com"type="email" id="em">
+            <label for="num">Enter Phone No.:</label>
+            <input name="num" placeholder="+91 99999 99999" type="number" id="numb">
+            <button type="submit" href="mailto:saksham.kaushik@gdgoenka.ac.in">Send</button>
+        </form>
+    </body>
+</html>

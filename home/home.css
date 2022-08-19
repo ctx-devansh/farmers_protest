@@ -2,6 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: #EFEAD8;
+    padding-bottom: 100px;
 }
 .div1{
     height: 110px;
@@ -47,9 +48,9 @@ body{
     transition: all 0.2s ease
 }
 
-.navBarButtons:hover{
+/* .navBarButtons:hover{
     transform: scale(1.2)
-}
+} */
 
 b{
     font-size: 100px;
@@ -57,7 +58,7 @@ b{
 .navBarButtons:before{
     content: "";
     position: absolute;
-    background-color: #FFFFFF;
+    background-color: #D0C9C0;
     height: 3px;
     width: 0%;
     left: 0;
@@ -71,9 +72,19 @@ b{
 
 .navBarPartition{
     font-size: 35px;
-    color: #FFFFFF;
+    color: #D0C9C0;
     font-weight: bold;
     align-self: baseline;
+}
+
+#homeButton:before{
+    content: "";
+    position: absolute;
+    background-color: #D0C9C0;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    top: 40px;
 }
 
 .vid{
@@ -115,6 +126,7 @@ b{
     padding: 100px;
     padding-top: 50px;
     margin: 60px;
+    z-index:1;
 }
 
 .cardheader{
@@ -129,8 +141,54 @@ b{
     color: whitesmoke;
 }
 
+.cardimgs{
+    margin: 60px;
+    border-radius: 10px;
+    height: 450px;
+    width: 70%;
+    overflow: hidden;
+}
+
+.imgprops{
+    margin-top: -200px;
+    height: 800px;
+    width: 1200px
+}
+
+
+#left{
+    margin-left: 150px;
+    margin-right: -90px;
+}
+
+#right {
+    margin-left: -105px;
+    margin-right: 150px;
+    
+}
+
+.CardWCR{
+    display: flex;
+    flex-direction: row;
+    height: 470px;
+    width: auto;
+}
+
+.CardWCL{
+    display: flex;
+    flex-direction: row;
+    height: 470px;
+    width: auto;
+}
+
+#contactUsIMG{
+    margin-top: -72px;
+    height: 616.8px;
+    width: 925.2px;
+}
+
 #learnMoreHB{
-    align-self: flex-end;
+    align-self: stretch;
 }
 
 #donateHB{
@@ -138,5 +196,36 @@ b{
 }
 
 #contactUsHB{
-    align-self: flex-end;
+    align-self: stretch;
 }
+
+a:link{
+    color: white;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #D0C9C0;
+    text-decoration: none;
+}
+
+a:active{
+    color: #D0C9C0;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 100%;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#5F7161,#6D8B74,#EFEAD8,#FFFFFF);
+  }
+  
