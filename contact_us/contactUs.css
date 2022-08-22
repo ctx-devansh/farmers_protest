@@ -166,7 +166,7 @@ b{
     text-decoration: none;
 }
 
-.navBar:active{
+.navBarButtons:active{
     color: #D0C9C0;
     text-decoration: none;
 }
