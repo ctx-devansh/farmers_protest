@@ -122,10 +122,13 @@ b{
     width: fit-content;
     height: fit-content;
     border: none;
-    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-radius: 20px;
     font-family: Aleo;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .submitbutton:link{
